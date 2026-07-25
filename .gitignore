@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Python cache & artifacts
+__pycache__/
+*.pyc
+
+# Dataset images and model weights (keep these local)
+data/
+models/*.pt
+*.mp4
+
+# OS metadata
+.DS_Store
+Thumbs.db
